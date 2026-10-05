@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:layout_project/signup.dart';
+import 'package:layout_project/detailpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
 
-      home: const SignupScreen(),
+      home: const  DetailPage(),
     );
   }
 }
